@@ -1,0 +1,288 @@
+.wccpa-root {
+	--wccpa-width: 600px;
+	--wccpa-max-height: 80vh;
+	--wccpa-padding: 24px;
+	--wccpa-background: #fff;
+	--wccpa-text: #1d2327;
+	--wccpa-radius: 8px;
+	--wccpa-border-width: 0;
+	--wccpa-border-style: solid;
+	--wccpa-border-color: transparent;
+	--wccpa-overlay: rgba(0, 0, 0, .58);
+	--wccpa-overlay-blur: 0px;
+	--wccpa-topbar-bg: #d63638;
+	--wccpa-topbar-text: #fff;
+	position: fixed;
+	inset: 0;
+	z-index: 999999;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+}
+
+.wccpa-root[hidden] {
+	display: none !important;
+}
+
+.wccpa-overlay {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 16px;
+	background: var(--wccpa-overlay);
+	-webkit-backdrop-filter: blur(var(--wccpa-overlay-blur));
+	backdrop-filter: blur(var(--wccpa-overlay-blur));
+}
+
+.wccpa-root--overlay-off .wccpa-overlay {
+	background: transparent;
+	-webkit-backdrop-filter: none;
+	backdrop-filter: none;
+}
+
+.wccpa-dialog {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: var(--wccpa-width);
+	max-width: calc(100vw - 32px);
+	max-height: min(var(--wccpa-max-height), calc(100vh - 32px));
+	margin: 0;
+	overflow: hidden;
+	color: var(--wccpa-text);
+	background: var(--wccpa-background);
+	border-width: var(--wccpa-border-width);
+	border-style: var(--wccpa-border-style);
+	border-color: var(--wccpa-border-color);
+	border-radius: var(--wccpa-radius);
+	outline: 0;
+	opacity: 0;
+	transform: scale(.96);
+	transition: opacity .18s ease, transform .18s ease;
+}
+
+.wccpa-root--shadow-none .wccpa-dialog { box-shadow: none; }
+.wccpa-root--shadow-soft .wccpa-dialog { box-shadow: 0 8px 24px rgba(0, 0, 0, .16); }
+.wccpa-root--shadow-medium .wccpa-dialog { box-shadow: 0 16px 48px rgba(0, 0, 0, .24); }
+.wccpa-root--shadow-strong .wccpa-dialog { box-shadow: 0 24px 72px rgba(0, 0, 0, .38); }
+
+.wccpa-root.is-open .wccpa-dialog {
+	opacity: 1;
+	transform: none;
+}
+
+.wccpa-root.is-closing .wccpa-dialog {
+	opacity: 0;
+}
+
+.wccpa-root--animation-fade .wccpa-dialog {
+	transform: none;
+}
+
+.wccpa-root--animation-slide .wccpa-dialog {
+	transform: translateY(24px);
+}
+
+.wccpa-root--animation-none .wccpa-dialog {
+	transition: none;
+	transform: none;
+}
+
+.wccpa-topbar {
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 0 auto;
+	align-items: center;
+	gap: 10px;
+	min-height: 48px;
+	padding: 8px 12px 8px 16px;
+	color: var(--wccpa-topbar-text);
+	background: var(--wccpa-topbar-bg);
+}
+
+.wccpa-topbar--plain {
+	color: var(--wccpa-text);
+	background: transparent;
+	padding: 14px var(--wccpa-padding) 0;
+}
+
+.wccpa-title {
+	flex: 1 1 auto;
+	min-width: 0;
+	margin: 0;
+	color: inherit;
+	font: inherit;
+	font-size: 1.08em;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.wccpa-icon {
+	display: inline-flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+}
+
+.wccpa-icon[hidden] { display: none; }
+.wccpa-icon svg { width: 100%; height: 100%; fill: currentColor; }
+
+.wccpa-close {
+	position: relative;
+	display: inline-flex;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 36px;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	font: inherit;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 1;
+	background: transparent;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.wccpa-close > span {
+	position: relative;
+	z-index: 1;
+}
+
+.wccpa-close-progress {
+	position: absolute;
+	inset: 0;
+	width: 36px;
+	height: 36px;
+	overflow: visible;
+	transform: rotate(-90deg);
+}
+
+.wccpa-close-progress circle {
+	fill: none;
+	stroke-width: 2;
+}
+
+.wccpa-close-progress__track {
+	stroke: currentColor;
+	opacity: .16;
+}
+
+.wccpa-close-progress__value {
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+	transition: stroke-dashoffset .1s linear;
+}
+
+.wccpa-close:hover { background: rgba(127, 127, 127, .18); }
+.wccpa-close:focus-visible,
+.wccpa-button:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+.wccpa-body {
+	box-sizing: border-box;
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow: auto;
+	padding: var(--wccpa-padding);
+	color: inherit;
+}
+
+.wccpa-topbar--plain + .wccpa-body { padding-top: 14px; }
+.wccpa-body > :first-child { margin-top: 0; }
+.wccpa-body > :last-child { margin-bottom: 0; }
+.wccpa-body img { max-width: 100%; height: auto; }
+
+.wccpa-countdown {
+	flex: 1 1 190px;
+	margin: 0 auto 0 0;
+	padding: 0 12px 0 0;
+	font-size: .78em;
+	line-height: 1.4;
+	opacity: .62;
+}
+
+.wccpa-footer {
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 0 auto;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 8px;
+	padding: 0 var(--wccpa-padding) var(--wccpa-padding);
+}
+
+.wccpa-footer[hidden] { display: none; }
+
+.wccpa-progress {
+	position: relative;
+	flex: 0 0 auto;
+	height: 3px;
+	overflow: hidden;
+	background: rgba(127, 127, 127, .16);
+}
+
+.wccpa-progress > span {
+	display: block;
+	width: 0;
+	height: 100%;
+	background: currentColor;
+	opacity: .5;
+	transition: width .1s linear;
+}
+
+.wccpa-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 40px;
+	padding: 8px 16px;
+	text-decoration: none !important;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.wccpa-button--primary {
+	color: #fff !important;
+	background: #2271b1;
+	border-color: #2271b1;
+}
+
+.wccpa-button--primary:hover { background: #135e96; border-color: #135e96; }
+
+.wccpa-button--secondary {
+	color: var(--wccpa-text) !important;
+	background: transparent;
+	border-color: currentColor;
+}
+
+/* Keep this after component display rules so hidden controls cannot reappear. */
+.wccpa-root [hidden] {
+	display: none !important;
+}
+
+@media (max-width: 480px) {
+	.wccpa-overlay { padding: 12px; }
+	.wccpa-dialog { max-width: calc(100vw - 24px); max-height: calc(100vh - 24px); }
+	.wccpa-footer { flex-direction: column-reverse; }
+	.wccpa-countdown { width: 100%; padding: 4px 0 0; text-align: center; }
+	.wccpa-button { width: 100%; box-sizing: border-box; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wccpa-dialog { transition: none !important; transform: none !important; }
+	.wccpa-progress > span,
+	.wccpa-close-progress__value { transition: none !important; }
+}

@@ -1,0 +1,1003 @@
+# Portuguese translations for WordPress Custom Popup Alert package.
+# Copyright (C) 2026 Eduardo Henrique Teixeira
+# This file is distributed under the same license as the WordPress Custom Popup Alert package.
+# Brazilian Portuguese translation, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Custom Popup Alert 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-30 11:55-0400\n"
+"PO-Revision-Date: 2026-08-30 15:52+0000\n"
+"Last-Translator: Eduardo Henrique Teixeira\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:46
+msgid "Display and Schedule"
+msgstr "Exibição e agendamento"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:54
+msgid "Display Rules"
+msgstr "Regras de exibição"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:62
+msgid "Frequency and Priority"
+msgstr "Frequência e prioridade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:70
+msgid "Behavior and Buttons"
+msgstr "Comportamento e botões"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:78
+msgid "Appearance"
+msgstr "Aparência"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:112
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:150
+#: wordpress-custom-popup-alert/includes/frontend/class-frontend.php:74
+#, php-format
+msgid "This message will close in %d seconds."
+msgstr "Esta mensagem será fechada em %d segundos."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:113
+#: wordpress-custom-popup-alert/includes/class-renderer.php:32
+#: wordpress-custom-popup-alert/includes/frontend/class-frontend.php:75
+msgid "Close alert"
+msgstr "Fechar aviso"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:114
+#: wordpress-custom-popup-alert/includes/class-renderer.php:46
+#: wordpress-custom-popup-alert/includes/frontend/class-frontend.php:76
+msgid "Countdown progress"
+msgstr "Progresso da contagem regressiva"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:115
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:147
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:275
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:429
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:466
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:485
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1032
+#: wordpress-custom-popup-alert/includes/class-alert-resolver.php:73
+#: wordpress-custom-popup-alert/includes/frontend/class-frontend.php:77
+msgid "Alert"
+msgstr "Aviso"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:128
+msgid "ALL"
+msgstr "TODAS"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:129
+msgid "ANY"
+msgstr "QUALQUER"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:130
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1069
+msgid "AND"
+msgstr "E"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:131
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1069
+msgid "OR"
+msgstr "OU"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:132
+msgid "are true"
+msgstr "forem verdadeiras"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:133
+msgid "Show when"
+msgstr "Mostrar quando"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:134
+msgid "Group"
+msgstr "Grupo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:135
+msgid "Add condition"
+msgstr "Adicionar condição"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:136
+msgid "Add group"
+msgstr "Adicionar grupo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:137
+msgid "Remove"
+msgstr "Remover"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:138
+msgid "Select condition"
+msgstr "Selecionar condição"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:139
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1089
+msgid "Yes"
+msgstr "Sim"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:140
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1089
+msgid "No"
+msgstr "Não"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:141
+msgid "No results found."
+msgstr "Nenhum resultado encontrado."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:142
+msgid "Searching…"
+msgstr "Pesquisando…"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:143
+msgid "Nested group limit reached."
+msgstr "O limite de grupos aninhados foi atingido."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:144
+msgid "Could not start the preview."
+msgstr "Não foi possível iniciar a pré-visualização."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:145
+msgid "Condition preserved but unavailable while its integration is inactive."
+msgstr ""
+"Condição preservada, mas indisponível enquanto a integração estiver inativa."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:146
+msgid "unavailable"
+msgstr "indisponível"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:148
+#, php-format
+msgid "Delay: %s s"
+msgstr "Atraso: %s s"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:149
+#, php-format
+msgid "Auto-close: %s s"
+msgstr "Fechamento automático: %s s"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:151
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:282
+msgid "Pause on hover"
+msgstr "Pausar ao passar o mouse"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:152
+msgid "Paused"
+msgstr "Pausado"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:171
+msgid "Public title"
+msgstr "Título público"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:173
+msgid ""
+"Shown in the popup header. The WordPress title above is used only to "
+"identify this alert in the dashboard."
+msgstr ""
+"Exibido no cabeçalho do popup. O título do WordPress acima serve apenas para "
+"identificar este aviso no painel."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:176
+msgid "Schedule this alert"
+msgstr "Agendar este aviso"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:177
+msgid "When scheduling is off, the alert has no date or time limit."
+msgstr ""
+"Quando o agendamento está desativado, o aviso não tem limite de data ou "
+"horário."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:180
+msgid "Starts at"
+msgstr "Inicia em"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:184
+msgid "Ends at"
+msgstr "Termina em"
+
+#. translators: %s: WordPress timezone.
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:192
+#, php-format
+msgid "You may leave either limit empty. Site timezone: %s."
+msgstr ""
+"Você pode deixar qualquer um dos limites vazio. Fuso horário do site: %s."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:201
+msgid "Preview popup"
+msgstr "Pré-visualizar popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:215
+msgid "Show this alert when the condition tree below is true."
+msgstr "Mostrar este aviso quando a árvore de condições abaixo for verdadeira."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:217
+msgid "Add at least one condition. Alerts without rules are not displayed."
+msgstr "Adicione pelo menos uma condição. Avisos sem regras não são exibidos."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:219
+msgid ""
+"WooCommerce is inactive. Its conditions are hidden from the editor, and "
+"previously saved WooCommerce rules are not evaluated."
+msgstr ""
+"O WooCommerce está inativo. Suas condições ficam ocultas no editor, e regras "
+"do WooCommerce salvas anteriormente não são avaliadas."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:236
+msgid "Display frequency"
+msgstr "Frequência de exibição"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:237
+msgid "Every time the rules match"
+msgstr "Sempre que as regras corresponderem"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:238
+msgid "Once per browser session"
+msgstr "Uma vez por sessão do navegador"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:239
+msgid "Every"
+msgstr "A cada"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:239
+msgid "days"
+msgstr "dias"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:240
+msgid ""
+"When using days, enter 0 to never show this alert again in the same browser."
+msgstr ""
+"Ao usar dias, informe 0 para nunca mais mostrar este aviso no mesmo "
+"navegador."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:243
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:609
+msgid "Priority"
+msgstr "Prioridade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:245
+msgid "Priority value"
+msgstr "Valor da prioridade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:247
+msgid "Higher values are displayed first."
+msgstr "Valores maiores são exibidos primeiro."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:250
+msgid "Hide eligible alerts with a lower priority"
+msgstr "Ocultar avisos elegíveis com prioridade inferior"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:266
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:267
+msgid "Live behavior preview"
+msgstr "Pré-visualização do comportamento em tempo real"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:270
+msgid "Overlay click"
+msgstr "Clique no overlay"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:271
+msgid "ESC key"
+msgstr "Tecla ESC"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:278
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:409
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:430
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:448
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:488
+msgid "Popup content"
+msgstr "Conteúdo do popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:296
+msgid "Closing options"
+msgstr "Opções de fechamento"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:298
+msgid "Show the close (X) button"
+msgstr "Exibir o botão de fechar (X)"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:299
+msgid "Close when clicking the page overlay"
+msgstr "Fechar ao clicar no fundo da página"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:300
+msgid "Close with the ESC key"
+msgstr "Fechar com a tecla ESC"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:304
+msgid "Opening and animation"
+msgstr "Abertura e animação"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:307
+msgid "Opening delay"
+msgstr "Atraso na abertura"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:308
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:324
+msgid "seconds"
+msgstr "segundos"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:311
+msgid "Animation"
+msgstr "Animação"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:320
+msgid "Close automatically"
+msgstr "Fechar automaticamente"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:323
+msgid "Close after"
+msgstr "Fechar após"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:327
+msgid "Countdown display"
+msgstr "Exibição da contagem regressiva"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:335
+msgid "Pause countdown while the pointer is over the popup"
+msgstr "Pausar a contagem regressiva enquanto o ponteiro estiver sobre o popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:337
+msgid ""
+"The close (X) and close-button modes require the corresponding control to be "
+"enabled."
+msgstr ""
+"Os modos do botão de fechar (X) e do botão com ação de fechar exigem que o "
+"controle correspondente esteja ativado."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:342
+msgid "Footer buttons"
+msgstr "Botões do rodapé"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:344
+msgid "Primary button"
+msgstr "Botão principal"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:345
+msgid "Secondary button"
+msgstr "Botão secundário"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:361
+msgid "Popup dimensions"
+msgstr "Dimensões do popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:370
+msgid "Width"
+msgstr "Largura"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:390
+msgid "Maximum height"
+msgstr "Altura máxima"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:406
+msgid "Corner radius"
+msgstr "Raio dos cantos"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:411
+msgid "Content padding"
+msgstr "Espaçamento do conteúdo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:417
+msgid ""
+"Choose the unit for width and maximum height. The diagram shows where each "
+"setting is applied."
+msgstr ""
+"Escolha a unidade da largura e da altura máxima. O diagrama mostra onde cada "
+"configuração é aplicada."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:420
+msgid "Colors and depth"
+msgstr "Cores e profundidade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:423
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:477
+msgid "Background color"
+msgstr "Cor de fundo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:424
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:478
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:425
+msgid "Shadow"
+msgstr "Sombra"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:427
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:447
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:463
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:482
+msgid "Live preview"
+msgstr "Pré-visualização em tempo real"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:437
+msgid "Border"
+msgstr "Borda"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:440
+msgid "Enable border"
+msgstr "Ativar borda"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:442
+msgid "Thickness"
+msgstr "Espessura"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:443
+msgid "Dashed"
+msgstr "Tracejada"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:443
+msgid "Dotted"
+msgstr "Pontilhada"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:443
+msgid "Solid"
+msgstr "Sólida"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:443
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:944
+msgid "Style"
+msgstr "Estilo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:444
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:458
+msgid "Color"
+msgstr "Cor"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:453
+msgid "Page overlay"
+msgstr "Fundo da página"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:456
+msgid "Enable page overlay"
+msgstr "Ativar fundo da página"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:459
+msgid "Opacity"
+msgstr "Opacidade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:460
+msgid "Blur"
+msgstr "Desfoque"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:472
+msgid "Header bar"
+msgstr "Barra superior"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:475
+msgid "Show header bar"
+msgstr "Exibir barra superior"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:479
+msgid "Icon"
+msgstr "Ícone"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:605
+#: wordpress-custom-popup-alert/includes/class-post-type.php:29
+#: wordpress-custom-popup-alert/includes/class-post-type.php:31
+msgid "Popup Alert"
+msgstr "Aviso em popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:606
+msgid "Status"
+msgstr "Status"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:607
+msgid "Rules"
+msgstr "Regras"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:608
+msgid "Frequency"
+msgstr "Frequência"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:610
+msgid "Schedule"
+msgstr "Agendamento"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:611
+msgid "Date"
+msgstr "Data"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:628
+msgid "Active"
+msgstr "Ativo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:629
+msgid "Inactive"
+msgstr "Inativo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:636
+msgid "Once per session"
+msgstr "Uma vez por sessão"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:639
+msgid "Never repeat"
+msgstr "Nunca repetir"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:642
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1096
+msgid "Always"
+msgstr "Sempre"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:648
+msgid "Exclusive"
+msgstr "Exclusivo"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:673
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:687
+msgid "You do not have permission to duplicate this alert."
+msgstr "Você não tem permissão para duplicar este aviso."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:692
+msgid "Alert not found."
+msgstr "Aviso não encontrado."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:699
+#, php-format
+msgid "%s — Copy"
+msgstr "%s — Cópia"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:730
+msgid "Alert duplicated as a draft."
+msgstr "Aviso duplicado como rascunho."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:865
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:872
+msgid "(no title)"
+msgstr "(sem título)"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:899
+#, php-format
+msgid "Unit for %s"
+msgstr "Unidade de %s"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:925
+msgid "Show this button"
+msgstr "Exibir este botão"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:928
+msgid "Label"
+msgstr "Texto"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:932
+msgid "Action"
+msgstr "Ação"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:934
+msgid "Close popup"
+msgstr "Fechar popup"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:935
+msgid "Open URL"
+msgstr "Abrir URL"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:939
+msgid "URL"
+msgstr "URL"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:941
+msgid "Open in a new tab"
+msgstr "Abrir em nova aba"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:946
+msgid "Primary"
+msgstr "Primário"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:947
+msgid "Secondary"
+msgstr "Secundário"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1001
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1020
+msgid "None"
+msgstr "Nenhuma"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1002
+msgid "Fade"
+msgstr "Fade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1003
+msgid "Fade + scale"
+msgstr "Fade + escala"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1004
+msgid "Slide"
+msgstr "Deslizar"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1010
+msgid "Do not show countdown"
+msgstr "Não mostrar a contagem regressiva"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1011
+msgid "Text next to buttons"
+msgstr "Texto ao lado dos botões"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1012
+msgid "Progress bar at the bottom"
+msgstr "Barra de progresso na parte inferior"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1013
+msgid "Around the close (X) button"
+msgstr "Ao redor do botão de fechar (X)"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1014
+msgid "In close-action button label"
+msgstr "No rótulo do botão com ação de fechar"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1021
+msgid "Soft"
+msgstr "Suave"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1022
+msgid "Medium"
+msgstr "Média"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1023
+msgid "Strong"
+msgstr "Forte"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1029
+msgid "No icon"
+msgstr "Sem ícone"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1030
+msgid "Information"
+msgstr "Informação"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1031
+msgid "Warning"
+msgstr "Atenção"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1033
+msgid "Exclamation"
+msgstr "Exclamação"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1034
+msgid "Error"
+msgstr "Erro"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1035
+msgid "Success"
+msgstr "Sucesso"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1036
+msgid "Delivery"
+msgstr "Entrega"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1037
+msgid "Location"
+msgstr "Localização"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1038
+msgid "Compatibility"
+msgstr "Compatibilidade"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1039
+msgid "Help"
+msgstr "Ajuda"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1045
+msgid "No rules — will not be displayed"
+msgstr "Nenhuma regra — não será exibido"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1077
+msgid "Condition unavailable"
+msgstr "Condição indisponível"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1100
+msgid "From"
+msgstr "De"
+
+#: wordpress-custom-popup-alert/includes/admin/class-admin.php:1100
+msgid "Until"
+msgstr "Até"
+
+#: wordpress-custom-popup-alert/includes/class-alert-meta.php:43
+msgid "Got it"
+msgstr "Entendi"
+
+#: wordpress-custom-popup-alert/includes/class-alert-meta.php:51
+msgid "Close"
+msgstr "Fechar"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:28
+#: wordpress-custom-popup-alert/includes/class-post-type.php:30
+msgid "Popup Alerts"
+msgstr "Avisos em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:32
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:33
+msgid "Add New Popup Alert"
+msgstr "Adicionar novo aviso em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:34
+msgid "New Popup Alert"
+msgstr "Novo aviso em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:35
+msgid "Edit Popup Alert"
+msgstr "Editar aviso em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:36
+msgid "View Popup Alert"
+msgstr "Ver aviso em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:37
+msgid "All Popup Alerts"
+msgstr "Todos os avisos em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:38
+msgid "Search Popup Alerts"
+msgstr "Pesquisar avisos em popup"
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:39
+msgid "No popup alerts found."
+msgstr "Nenhum aviso em popup encontrado."
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:40
+msgid "No popup alerts found in Trash."
+msgstr "Nenhum aviso em popup encontrado na lixeira."
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:41
+msgid "Popup alert activated."
+msgstr "Aviso em popup ativado."
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:42
+msgid "Popup alert updated."
+msgstr "Aviso em popup atualizado."
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:43
+msgid "Popup alert deactivated and saved as a draft."
+msgstr "Aviso em popup desativado e salvo como rascunho."
+
+#: wordpress-custom-popup-alert/includes/class-post-type.php:98
+msgid "Internal alert name"
+msgstr "Nome interno do aviso"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:20
+msgid "WooCommerce page"
+msgstr "Página do WooCommerce"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:21
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:55
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:87
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:182
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:206
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:232
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:263
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:285
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:23
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:57
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:184
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:234
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:265
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:41
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:54
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:134
+msgid "is any of"
+msgstr "é qualquer um de"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:24
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:58
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:185
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:235
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:266
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:42
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:55
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:135
+msgid "is none of"
+msgstr "não é nenhum de"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:29
+msgid "Cart"
+msgstr "Carrinho"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:30
+msgid "Checkout"
+msgstr "Checkout"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:54
+msgid "Specific product"
+msgstr "Produto específico"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:63
+msgid "Search by name, ID, or SKU"
+msgstr "Pesquisar por nome, ID ou SKU"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:89
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:85
+msgid "belongs to any"
+msgstr "pertence a qualquer um de"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:90
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:86
+msgid "belongs to all"
+msgstr "pertence a todos"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:91
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:87
+msgid "does not belong to any"
+msgstr "não pertence a nenhum de"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:92
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:88
+msgid "does not belong to all"
+msgstr "não pertence a todos"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:98
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:94
+msgid "Search terms"
+msgstr "Pesquisar termos"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:121
+msgid "Product category"
+msgstr "Categoria de produto"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:130
+msgid "Include subcategories"
+msgstr "Incluir subcategorias"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:169
+msgid "Product tag"
+msgstr "Tag de produto"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:181
+msgid "Shipping class"
+msgstr "Classe de entrega"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:191
+msgid "Search shipping classes"
+msgstr "Pesquisar classes de entrega"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:205
+msgid "Product on sale"
+msgstr "Produto em promoção"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:207
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:287
+msgid "is"
+msgstr "é"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:224
+msgid "In stock"
+msgstr "Em estoque"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:225
+msgid "Out of stock"
+msgstr "Fora de estoque"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:226
+msgid "On backorder"
+msgstr "Sob encomenda"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:231
+msgid "Stock status"
+msgstr "Status do estoque"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:254
+msgid "Simple"
+msgstr "Simples"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:255
+msgid "Variable"
+msgstr "Variável"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:256
+msgid "Grouped"
+msgstr "Agrupado"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:257
+msgid "External/Affiliate"
+msgstr "Externo/Afiliado"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:262
+msgid "Product type"
+msgstr "Tipo de produto"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:284
+msgid "SKU"
+msgstr "SKU"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:288
+msgid "is not"
+msgstr "não é"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:289
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:157
+msgid "contains"
+msgstr "contém"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:290
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:158
+msgid "does not contain"
+msgstr "não contém"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:291
+msgid "starts with"
+msgstr "começa com"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:292
+msgid "ends with"
+msgstr "termina com"
+
+#: wordpress-custom-popup-alert/includes/conditions/woocommerce/class-woocommerce-conditions.php:296
+msgid "Product SKU"
+msgstr "SKU do produto"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:25
+msgid "Content type"
+msgstr "Tipo de conteúdo"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:26
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:52
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:83
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:132
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:155
+msgid "WordPress"
+msgstr "WordPress"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:51
+msgid "Specific content"
+msgstr "Conteúdo específico"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:60
+msgid "Search by title or ID"
+msgstr "Pesquisar por título ou ID"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:114
+msgid "Post category"
+msgstr "Categoria do post"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:123
+msgid "Post tag"
+msgstr "Tag do post"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:131
+msgid "Author"
+msgstr "Autor"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:140
+msgid "Search authors"
+msgstr "Pesquisar autores"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:154
+msgid "Keyword"
+msgstr "Palavra-chave"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:162
+msgid "Word or phrase"
+msgstr "Palavra ou frase"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:167
+msgid "Search in"
+msgstr "Pesquisar em"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:170
+msgid "Title"
+msgstr "Título"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:171
+msgid "Excerpt"
+msgstr "Resumo"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:172
+msgid "Content"
+msgstr "Conteúdo"
+
+#: wordpress-custom-popup-alert/includes/conditions/wordpress/class-wordpress-conditions.php:173
+msgid "Title, excerpt, and content"
+msgstr "Título, resumo e conteúdo"
