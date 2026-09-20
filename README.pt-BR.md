@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/assets/banner.png" alt="Banner do WordPress Custom Popup Alert" width="100%">
+  <img src="assets/banner.png" alt="Banner do WordPress Custom Popup Alert" width="100%">
 </p>
 
 <h1 align="center">WordPress Custom Popup Alert</h1>
